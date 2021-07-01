@@ -51,11 +51,22 @@ h2 {
  }
  #headerh2 {
   color: rgb(248, 249, 250) ;
+  padding: 4px;
 }
  .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  #name-title {
+
+    top: 0; /* At the bottom. Use top:0 to append it to the top */
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.4); /* Black background with 0.5 opacity */
+    color: #ffffff; /* Grey text */
+    width: 25%; /* Full width */
+    padding: 20px; /* Some padding */
   }
 
 
@@ -161,7 +172,13 @@ h2 {
   }
   
   .paragraph {
-  
+    /*  SAVED ONLY
+    background-image: url("img/body.jpg"); 
+    background-color: #f7f3f3;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    */ 
     justify-self: stretch;
     align-self: stretch;
     width:auto;
