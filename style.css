@@ -1,0 +1,143 @@
+#title {
+    color:rgb(233, 92, 10);
+}
+#name-title {
+    color:rgb(233, 92, 10);
+    font: bold;
+    font-size: 52pt;
+}
+body {
+    background-color: rgb(204, 198, 198);
+}
+h1 {
+   color: rgb(5, 48, 105) ;
+}
+h2 {
+    color: rgb(21, 83, 165) ;
+ }
+ .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column-social-images {
+    float: left;
+    width: 1.7%;
+    padding: 1px;
+  }
+  
+  /* Clear floats after image containers */
+  .row-social-images::after {
+    content: "";
+    clear: both;
+    display: table;
+    
+  }
+
+
+  .container {
+    display: grid; 
+    grid-auto-flow: row dense; 
+    grid-auto-columns: 1fr; 
+    grid-auto-rows: 1fr; 
+    grid-template-columns: auto auto auto auto; 
+    grid-template-rows: auto auto auto auto; 
+    gap: 0px 0px; 
+    width:auto;
+    height: auto;
+    grid-template-areas: 
+      "header1 . . ."
+      "navigation . . ."
+      "paragraph . . ."
+      "footer . . ."; 
+    justify-content: stretch; 
+    align-content: stretch; 
+    justify-items: stretch; 
+    align-items: stretch; 
+  }
+  
+  
+  .header1 {
+    display: grid;
+    grid-template-columns: 20% 80% 80%;
+    grid-template-rows: 33.3% 33.3% 33.3%;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Photo1 title1 title1"
+      "Photo1 title2 title2"
+      "Photo1 socialnetworks1 socialnetworks1";
+    justify-self: stretch;
+    align-self: stretch;
+    width:auto;
+    height: auto;
+    grid-area: header1;
+  }
+  
+  .Photo1 {
+  
+    justify-self: stretch;
+    align-self: stretch;
+    width:auto;
+    height: auto;
+    grid-area: Photo1;
+  }
+  
+  .title1 {
+  
+    justify-self: stretch;
+    align-self: stretch;
+    width:auto;
+    height: auto;
+    grid-area: title1;
+  }
+  
+  .socialnetworks1 {
+  
+    justify-self: stretch;
+    align-self: stretch;
+    width:auto;
+    height: auto;
+    grid-area: socialnetworks1;
+  }
+  
+  .title2 {
+  
+    justify-self: stretch;
+    align-self: stretch;
+    width:auto;
+    height: auto;
+    grid-area: title2;
+  }
+  
+  .navigation {
+    background-color: rgb(105, 103, 103);
+    justify-self: stretch;
+    align-self: stretch;
+    width:auto;
+    height: auto;
+    grid-area: navigation;
+  }
+  
+  .paragraph {
+  
+    justify-self: stretch;
+    align-self: stretch;
+    width:auto;
+    height: auto;
+    grid-area: paragraph;
+  }
+  
+  .footer {
+    background-color: rgb(3, 3, 3);
+    color: snow;
+    justify-self: stretch;
+    align-self: stretch;
+    width:auto;
+    height: auto;
+    grid-area: footer;
+  }
+  
