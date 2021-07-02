@@ -42,6 +42,7 @@ li a:hover {
 }
 body {
     background-color: rgb(255, 255, 255);
+    font-family: 'IBM Plex Sans', sans-serif;
 }
 h1 {
    color: rgb(5, 48, 105) ;
