@@ -1,6 +1,12 @@
 #image1 {
   border-radius: 20%;
 }
+#menu_list1 {
+  top: 0;
+  position: fixed;
+  width: 100%;
+  padding: 0
+}
 #menu-list {
   list-style-type: none;
   margin: 0;
@@ -41,6 +47,7 @@ li a:hover {
     font-size: 52pt;
 }
 body {
+    margin-top: 40px;
     background-color: rgb(255, 255, 255);
     font-family: 'IBM Plex Sans', sans-serif;
 }
