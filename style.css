@@ -31,7 +31,7 @@ li a {
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-  background-color: rgb(233, 92, 10);
+  background-color: rgb(236, 93, 11);
 }
 .active {
   background-color: #a15812;
